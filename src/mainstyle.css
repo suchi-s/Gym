@@ -1,0 +1,352 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+#header
+{
+	background-image: url(img/8-halloween-themed.png);
+	height: 82vh;
+	background-size: cover;
+	background-position: center;
+}
+.navbar-brand
+{
+  font-family: algerian;
+}
+.navbar-nav li a
+{
+	float: right;
+	color: black;
+	font-family: algerian;
+}
+.navbar-nav li a:hover
+{
+   font-size: 120%;
+   border-radius: 3px;
+   border-bottom: 3px solid #96BDF1;
+    
+}
+.navbar-brand img
+{
+   width: 100px;
+   margin-left: -20px;
+   margin-top: -20px;
+}
+.navbar-toggler
+{
+	border: none!important;
+	outline: none!important;
+}
+nav .fa-bars
+{
+  color: black;
+  font-size: 26px;
+}
+
+.Welcome 
+{
+	padding: 50px 100px;
+	margin-top: -140px;
+	background-color: #96BDF1;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.Welcome h1
+{
+	color: #333;
+}
+.Welcome .home-btn
+{
+	margin-top: 10px;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: #013f7e;
+	color: #fff;
+
+}
+.Welcome .btn:focus
+{
+	box-shadow: none;
+}
+
+
+/*------------About Us----------------------*/
+
+#about
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #B2E8E8  ;
+}
+#about .col-md-6
+{
+	padding: 20px 10px;
+}
+#about h3
+{
+  margin: 20px auto;
+}
+
+/*---------------------------srvices---------------------------------*/
+
+#Services
+{
+	background-color: #B2E8E8 ;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 10px;
+}
+
+#Services .col-md-4
+{
+	
+	padding:20px;
+}
+#Services .col-md-4 h4
+{
+	
+	padding:5px;
+}
+#Services .col-md-4 img
+{
+	width: 100px;
+}
+#Services .col-md-4 p
+{
+	text-align: justify;
+	padding:5px;
+}
+
+/*------------Features-------------*/
+
+#Features
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/Website+Group.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+#Features .col-md-6
+{
+	padding: 20px;
+}
+
+.Feature-box
+{
+	height: 120px;
+}
+.Feature-box .Feature-left
+{
+	height: 120px;
+	width: 20%;
+	float: left;
+}
+
+
+.Feature-box .Feature-left .fa
+{
+	padding-top: 13px;
+	font-size:50px;
+}
+
+/*
+.Feature-box .Feature-right
+{
+	height: 50px;
+	width: 20%;
+	float: left;
+}*/
+
+.Feature-box .Feature-right h4
+{
+	padding-top: 10px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.Feature-box .Feature-right p
+{
+	padding-top: 10px;
+	padding-left: 15px;
+	text-align: left;
+}
+#about iframe
+{
+  border: 4px solid white;
+  border-radius: 10px;
+}
+
+
+
+/*-------------testimonials---------------*/
+
+#testimonials
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #fff ;
+}
+#testimonials .col-md-4
+{
+	padding: 15px 30px;
+}
+
+#testimonials img
+{
+	width: 60px;
+	height: 60px;
+	position:relative; 
+	border-radius:50%;
+	margin-top: -40px;
+	border: 5px solid #fff;
+	margin-bottom: 30px;
+	margin-left: -30px;
+}
+.review
+{
+	font-size: 16px;
+	padding: 10px 10px 10px 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);	
+} 
+.review .fa-twitter
+{
+	color: #013f7e;
+}
+#testimonials span
+{
+	color: #013f7e;
+	font-weight: 600;
+	font-size: 18px;
+}
+#testimonials h1
+{
+	margin-bottom: 20px;
+	color: #013f7e;
+}
+#testimonials p
+{
+	padding-bottom: 30px;
+}
+
+.
+/*#testimonials .middle
+{
+	margin-bottom: -30px;
+	margin-top: -10px;
+}*/
+
+/*-------Subscribe-------*/
+#subscribe
+{
+	background-color: #000;
+}
+.subscribe
+{
+	background-color:#013f7e;
+	padding: 50px 20px;
+	position: relative;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+	margin-bottom: -160px;
+}
+.subscribe h3, .subscribe p
+{
+	color: white;
+}
+.subscribe .input-group
+{
+  border-radius: 30px;
+  background-color: white;
+  max-width: 500px;
+  margin: 10px auto;
+  padding:5px;
+}
+.subscribe .form-control 
+{
+	border: none;
+	background:transparent;
+}
+.subscribe .form-control:focus
+{
+	box-shadow: none;
+	background: transparent;
+}
+.subscribe .input-group-append
+{
+	background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+	border-radius: 30px;
+}
+.subscribe .input-group-text
+{
+	background:transparent;
+	border: none;
+	color: white;
+}
+.subscribe .btn:focus
+{
+  box-shadow: none;
+
+}
+
+/*footer*/
+
+#footer
+{
+	margin-top: 80px;
+	padding: 100px;
+	background-color: #2DD5CD;
+	color: #013f7e;
+}
+.footer-logo
+{
+	width: 200px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 20px;
+}
+#footer h1
+{
+	font-size: 18px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+#footer p
+{
+	font-size: 14px;
+	text-align: left;
+}
+.footer Country
+{
+	margin-left: 37px;
+}
+#footer hr
+{
+	margin-top: 10px;
+}
+
+#footer .row .fa
+{
+	padding-right: 20px;
+	font-size: 15px;
+}
+#footer .fa-heart-o
+{
+	color: red;
+	font-size: 17px;
+}
+#footer .copyright
+{
+ margin-bottom: -80px;
+ text-align: center;
+ font-size: 16px;
+}
+
